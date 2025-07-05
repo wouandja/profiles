@@ -1,0 +1,70 @@
+/* main{
+    background-color: white;
+    box-shadow: 12px solid white;
+}
+.p{
+    position: relative;
+    left: 58%;
+}
+.i{
+    position: absolute;
+    left: 62%;
+    top: 10%;
+} */
+main{
+    /* border: 2px solid black; */
+    height: 87vh;
+    background: url("/images/home-bg-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.text{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 52%;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding: 0px 70px;
+    gap: 20px;
+}
+.img{
+    /* border: 2px solid yellow; */
+    height: 100%;
+    width: 40%;
+    /* background-image: url(/images/home-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;  */
+    position: relative;
+} 
+ .img img{
+    position: absolute;
+    height: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+} 
+/* .img  img{
+    border: 5px solid blue;
+} */
+.text h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    /* border: 2px solid blue; */
+    font-size: 50px;
+    /* margin-left: 20px; */
+}
+.txt{
+    color: #e63795;
+}
+.btn button{
+    border: 2px solid gold;
+    background-color: #e63795;
+    padding: 6px 16px;
+    border-radius: 50px;
+    border: none;
+    background: linear-gradient(to right, purple, #e63795);
+    color: white;
+}    
